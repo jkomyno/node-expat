@@ -15,7 +15,7 @@
     "preversion": "npm test",
     "lint": "standard",
     "unit": "vows --spec ./test/**/*.js",
-    "test": "npm run unit && npm run lint",
+    "test": "npm run unit",
     "benchmark": "node ./benchmark.js"
   },
   "dependencies": {
@@ -33,15 +33,16 @@
     "standard": "^7.1.2",
     "vows": "^0.8.1"
   },
-  "repository": "github:astro/node-expat",
-  "homepage": "http://github.com/astro/node-expat",
-  "bugs": "https://github.com/astro/node-expat/issues",
+  "repository": "github:jkomyno/node-expat",
+  "homepage": "http://github.com/jkomyno/node-expat",
+  "bugs": "https://github.com/jkomyno/node-expat/issues",
   "author": {
-    "name": "Astro",
-    "email": "astro@spaceboyz.net",
-    "web": "http://spaceboyz.net/~astro/"
+    "name": "jkomyno",
+    "email": "alberto.schiabel@gmail.com",
+    "web": "http://github.com/jkomyno"
   },
   "contributors": [
+  	"Alberto Schiabel",
     "Stephan Maka",
     "Derek Hammer",
     "Iein Valdez",
